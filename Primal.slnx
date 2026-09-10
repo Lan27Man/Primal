@@ -1,0 +1,19 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+  </Configurations>
+  <Folder Name="/Editor/">
+    <Project Path="PrimalEditor/PrimalEditor.csproj" />
+  </Folder>
+  <Folder Name="/Library/">
+    <Project Path="Engine/Engine.vcxproj" Id="55de5201-08c6-4330-b441-b888dad57e21" />
+    <Project Path="EngineDLL/EngineDLL.vcxproj" Id="80328f9d-a553-4586-8705-3707db4bb018" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+  </Folder>
+  <Folder Name="/Tests/">
+    <Project Path="EngineTest/EngineTest.vcxproj" Id="87380b2f-d486-48a8-8098-cf71834f4b47" />
+  </Folder>
+</Solution>
