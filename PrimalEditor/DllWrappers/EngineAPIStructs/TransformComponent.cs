@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 namespace PrimalEditor.EngineAPIStructs
 {
     [StructLayout(LayoutKind.Sequential)]
-    internal class TransformComponent
+    internal sealed class TransformComponent
     {
         #region Fields
 

@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 namespace PrimalEditor.EngineAPIStructs
 {
     [StructLayout(LayoutKind.Sequential)]
-    internal class GameEntityDescriptor
+    internal sealed class GameEntityDescriptor
     {
         #region Fields
 

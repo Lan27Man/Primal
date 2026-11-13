@@ -52,6 +52,25 @@ namespace PrimalEditor.Dictionaries
             }
         }
 
+        private void CloseButton_OnClick(object sender, RoutedEventArgs e)
+        {
+            var window = (Window)((FrameworkElement)sender).TemplatedParent;
+            window.Close();
+        }
+
+        private void MaximizeRestoreButton_OnClick(object sender, RoutedEventArgs e)
+        {
+            var window = (Window)((FrameworkElement)sender).TemplatedParent;
+            window.WindowState = (window.WindowState == WindowState.Normal) ?
+                WindowState.Maximized : WindowState.Normal;
+        }
+
+        private void MinimizeButton_OnClick(object sender, RoutedEventArgs e)
+        {
+            var window = (Window)((FrameworkElement)sender).TemplatedParent;
+            window.WindowState = WindowState.Minimized;
+        }
+
         #endregion
     }
 }
